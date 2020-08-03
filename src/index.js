@@ -42,6 +42,7 @@ firstCardLink2.textContent = 'Dog Ipsum'
 // 3- Changing any property
 //  with dot notation
 //  setAttribute, getAttribute
+firstCardLink1.href = 'https://www.pexels.com/search/dog/'
 
 // 4- Changing the style
 //  by changing the class names on the element
