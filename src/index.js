@@ -7,6 +7,8 @@
 const firstCard = document.querySelector('.card:nth-of-type(1)')
 const pageHeading = document.querySelector('#logoTitle')
 const firstCardTitle = firstCard.querySelector('h2')
+const firstCardSubtitle = firstCard.querySelector('h3')
+const firstCardText = firstCard.querySelector('p')
 // console.log(pageHeading)
 // console.dir(pageHeading)
 console.log(firstCardTitle)
