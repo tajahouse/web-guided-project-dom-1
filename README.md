@@ -1,4 +1,4 @@
-# DOM 1
+# DOM 1 rocks
 
 Guided project for **DOM 1** Module.
 
