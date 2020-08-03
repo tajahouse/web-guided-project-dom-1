@@ -5,23 +5,26 @@
 //  querySelector
 //  querySelectorAll
 const pageHeading = document.querySelector('#logoTitle')
-console.log(pageHeading)
-console.dir(pageHeading)
+const firstCardTitle = document.querySelector('.card:nth-of-type(1) .card-title')
+// console.log(pageHeading)
+// console.dir(pageHeading)
+console.log(firstCardTitle)
 
 const allLinks = document.querySelectorAll('a')
 
-const theVeryFirsLink = allLinks[0]
-console.log(allLinks)
-console.log(theVeryFirsLink)
+// const theVeryFirsLink = allLinks[0]
+// console.log(allLinks)
+// console.log(theVeryFirsLink)
 
 allLinks.forEach(link => {
-  console.log(link.textContent)
+  // console.log(link.textContent)
 })
 
 // 2- Changing an element's text content
 //  textContent, innerText
 pageHeading.textContent = 'Lambda Dog'
 pageHeading.innerText = 'Cool Lambda Dog'
+firstCardTitle.textContent = 'Cool Dog'
 
 // 3- Changing any property
 //  with dot notation
