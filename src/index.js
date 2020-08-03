@@ -16,6 +16,7 @@ const firstCardLink2 = firstCardLink1.nextElementSibling
 console.log(firstCardTitle)
 
 const allLinks = document.querySelectorAll('a')
+const allLinksAlt = document.getElementsByTagName('a')
 
 // const theVeryFirsLink = allLinks[0]
 // console.log(allLinks)
@@ -23,6 +24,10 @@ const allLinks = document.querySelectorAll('a')
 
 allLinks.forEach(link => {
   // console.log(link.textContent)
+})
+
+Array.from(allLinksAlt).forEach(l => {
+  console.log(l.textContent)
 })
 
 // 2- Changing an element's text content
@@ -33,6 +38,7 @@ firstCardTitle.textContent = 'Cool Dog'
 firstCardSubtitle.textContent = 'Rulez'
 firstCardText.textContent = 'Puggorino tungg puggorino, waggy wags. thicc wow such tempt. Very jealous pupper doing me a frighten puggorino very taste wow, borkdrive. Smol big ol fluffer pupperino fluffer, waggy wags ruff blep.'
 firstCardLink2.textContent = 'Dog Ipsum'
+
 // 3- Changing any property
 //  with dot notation
 //  setAttribute, getAttribute
