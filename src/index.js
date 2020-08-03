@@ -43,6 +43,10 @@ firstCardLink2.textContent = 'Dog Ipsum'
 //  with dot notation
 //  setAttribute, getAttribute
 firstCardLink1.href = 'https://www.pexels.com/search/dog/'
+// firstCardLink2.href='https://doggoipsum.com/'
+firstCardLink2.setAttribute('href', 'https://doggoipsum.com/')
+// firstCardLink1.className = 'foo bar baz'
+firstCardLink1.setAttribute('class', 'foo bar baz')
 
 // 4- Changing the style
 //  by changing the class names on the element
