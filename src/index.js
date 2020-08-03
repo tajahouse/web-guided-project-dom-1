@@ -4,8 +4,9 @@
 //  getElementById, getElementsByTagName, getElementsByClassName
 //  querySelector
 //  querySelectorAll
+const firstCard = document.querySelector('.card:nth-of-type(1)')
 const pageHeading = document.querySelector('#logoTitle')
-const firstCardTitle = document.querySelector('.card:nth-of-type(1) .card-title')
+const firstCardTitle = firstCard.querySelector('h2')
 // console.log(pageHeading)
 // console.dir(pageHeading)
 console.log(firstCardTitle)
