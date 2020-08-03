@@ -11,6 +11,7 @@ const firstCardSubtitle = firstCard.querySelector('h3')
 const firstCardText = firstCard.querySelector('p')
 const firstCardLink1 = firstCard.querySelector('a')
 const firstCardLink2 = firstCardLink1.nextElementSibling
+const firstCardImg = firstCard.querySelector('img')
 // console.log(pageHeading)
 // console.dir(pageHeading)
 // console.log(firstCardTitle)
@@ -39,6 +40,7 @@ firstCardSubtitle.textContent = 'Rulez'
 firstCardText.textContent = 'Puggorino tungg puggorino, waggy wags. thicc wow such tempt. Very jealous pupper doing me a frighten puggorino very taste wow, borkdrive. Smol big ol fluffer pupperino fluffer, waggy wags ruff blep.'
 firstCardLink2.textContent = 'Dog Ipsum'
 
+
 // 3- Changing any property
 //  with dot notation
 //  setAttribute, getAttribute
@@ -46,7 +48,9 @@ firstCardLink1.href = 'https://www.pexels.com/search/dog/'
 // firstCardLink2.href='https://doggoipsum.com/'
 firstCardLink2.setAttribute('href', 'https://doggoipsum.com/')
 // firstCardLink1.className = 'foo bar baz'
-firstCardLink1.setAttribute('class', 'foo bar baz')
+// firstCardLink1.setAttribute('class', 'foo bar baz')
+firstCardImg.src = 'https://yt3.ggpht.com/a-/AAuE7mBvG_YS_Ec8eB9wYeLPmRR-ERiE_nvqTVdqgQ=s900-mo-c-c0xffffffff-rj-k-no'
+
 
 // 4- Changing the style
 //  by changing the class names on the element
