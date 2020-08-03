@@ -66,6 +66,11 @@ firstCardText.style.color = 'blue'
 firstCardText.style.fontWeight = 'bold'
 
 // 5- Creating new elements and appending them
+const blogLink = document.createElement('a') // instantiate the element 
+blogLink.textContent = 'Blog'                // tack text content
+blogLink.href = '#'                          // tack any other attrs we need
+const nav = document.querySelector('nav')    // this is the parent we wish to append the new link to
+nav.appendChild(blogLink)
 
 // 6- Removing an existing element and putting it back
 
