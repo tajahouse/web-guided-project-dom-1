@@ -54,6 +54,8 @@ firstCardImg.src = 'https://yt3.ggpht.com/a-/AAuE7mBvG_YS_Ec8eB9wYeLPmRR-ERiE_nv
 
 // 4- Changing the style
 //  by changing the class names on the element
+const header = document.querySelector('header')
+header.classList.add('sky')
 //  by manipulating inline styles on the element
 
 // 5- Creating new elements and appending them
