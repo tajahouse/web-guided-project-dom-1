@@ -9,7 +9,14 @@ console.log(pageHeading)
 console.dir(pageHeading)
 
 const allLinks = document.querySelectorAll('a')
+
+const theVeryFirsLink = allLinks[0]
 console.log(allLinks)
+console.log(theVeryFirsLink)
+
+allLinks.forEach(link => {
+  console(link.textContent)
+})
 
 // 2- Changing an element's text content
 //  textContent, innerText
