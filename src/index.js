@@ -77,4 +77,5 @@ blogLink.remove()
 nav.append(blogLink)
 
 // 7- Making a copy of the card and appending it to the card group
-const secondCard = firstCard.cloneNode()
+const secondCard = firstCard.cloneNode(true)
+document.querySelector('.card-group').appendChild(secondCard)
