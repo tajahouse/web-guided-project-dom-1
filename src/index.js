@@ -15,7 +15,7 @@ console.log(allLinks)
 console.log(theVeryFirsLink)
 
 allLinks.forEach(link => {
-  console(link.textContent)
+  console.log(link.textContent)
 })
 
 // 2- Changing an element's text content
