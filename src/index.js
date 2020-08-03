@@ -57,6 +57,10 @@ firstCardImg.src = 'https://yt3.ggpht.com/a-/AAuE7mBvG_YS_Ec8eB9wYeLPmRR-ERiE_nv
 const header = document.querySelector('header')
 header.classList.add('sky')
 header.classList.remove('sky')
+setInterval(() => {
+  header.classList.toggle('sky')
+}, 1000)
+
 //  by manipulating inline styles on the element
 
 // 5- Creating new elements and appending them
