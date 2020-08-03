@@ -13,7 +13,7 @@ const firstCardLink1 = firstCard.querySelector('a')
 const firstCardLink2 = firstCardLink1.nextElementSibling
 // console.log(pageHeading)
 // console.dir(pageHeading)
-console.log(firstCardTitle)
+// console.log(firstCardTitle)
 
 const allLinks = document.querySelectorAll('a')
 const allLinksAlt = document.getElementsByTagName('a')
@@ -27,7 +27,7 @@ allLinks.forEach(link => {
 })
 
 Array.from(allLinksAlt).forEach(l => {
-  console.log(l.textContent)
+  // console.log(l.textContent)
 })
 
 // 2- Changing an element's text content
