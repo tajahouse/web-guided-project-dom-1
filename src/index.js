@@ -49,7 +49,7 @@ firstCardLink1.href = 'https://www.pexels.com/search/dog/'
 firstCardLink2.setAttribute('href', 'https://doggoipsum.com/')
 // firstCardLink1.className = 'foo bar baz'
 // firstCardLink1.setAttribute('class', 'foo bar baz')
-firstCardImg.src = 'https://yt3.ggpht.com/a-/AAuE7mBvG_YS_Ec8eB9wYeLPmRR-ERiE_nvqTVdqgQ=s900-mo-c-c0xffffffff-rj-k-no'
+firstCardImg.src = 'https://www.pets4homes.co.uk/images/articles/1209/large/understanding-doggy-talk-5280cf8485e99.jpg'
 
 
 // 4- Changing the style
