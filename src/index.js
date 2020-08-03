@@ -70,8 +70,11 @@ const blogLink = document.createElement('a') // instantiate the element
 blogLink.textContent = 'Blog'                // tack text content
 blogLink.href = '#'                          // tack any other attrs we need
 const nav = document.querySelector('nav')    // this is the parent we wish to append the new link to
-nav.appendChild(blogLink)
+nav.appendChild(blogLink)                    // appending to the parent (research 'append')
 
 // 6- Removing an existing element and putting it back
+blogLink.remove()
+nav.append(blogLink)
 
 // 7- Making a copy of the card and appending it to the card group
+const secondCard = firstCard.cloneNode()
