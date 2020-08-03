@@ -9,6 +9,8 @@ const pageHeading = document.querySelector('#logoTitle')
 const firstCardTitle = firstCard.querySelector('h2')
 const firstCardSubtitle = firstCard.querySelector('h3')
 const firstCardText = firstCard.querySelector('p')
+const firstCardLink1 = firstCard.querySelector('a')
+const firstCardLink2 = firstCardLink1.nextElementSibling
 // console.log(pageHeading)
 // console.dir(pageHeading)
 console.log(firstCardTitle)
@@ -28,7 +30,9 @@ allLinks.forEach(link => {
 pageHeading.textContent = 'Lambda Dog'
 pageHeading.innerText = 'Cool Lambda Dog'
 firstCardTitle.textContent = 'Cool Dog'
-
+firstCardSubtitle.textContent = 'Rulez'
+firstCardText.textContent = 'Puggorino tungg puggorino, waggy wags. thicc wow such tempt. Very jealous pupper doing me a frighten puggorino very taste wow, borkdrive. Smol big ol fluffer pupperino fluffer, waggy wags ruff blep.'
+firstCardLink2.textContent = 'Dog Ipsum'
 // 3- Changing any property
 //  with dot notation
 //  setAttribute, getAttribute
