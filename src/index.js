@@ -62,6 +62,8 @@ setInterval(() => {
 }, 1000)
 
 //  by manipulating inline styles on the element
+firstCardText.style.color = 'blue'
+firstCardText.style.fontWeight = 'bold'
 
 // 5- Creating new elements and appending them
 
