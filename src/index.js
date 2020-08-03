@@ -8,6 +8,9 @@ const pageHeading = document.querySelector('#logoTitle')
 console.log(pageHeading)
 console.dir(pageHeading)
 
+const allLinks = document.querySelectorAll('a')
+console.log(allLinks)
+
 // 2- Changing an element's text content
 //  textContent, innerText
 pageHeading.textContent = 'Lambda Dog'
